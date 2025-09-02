@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--
+    PROYECTO: Mi sitio web personal
+    OBJETIVO: Practicar todos los puntos de la Unidad 1
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Elda Matus</title>
+
+    <!-- CSS INCRUSTADO DENTRO DEL CÓDIDO HTML -->
+     <style>
+        body {font-family: Arial, sans-serif; margin: 0; padding: 0;}
+        header, nav, section, article, footer {padding: 12px; margin: 8px;}
+        header {background: #f2f2f2;}
+        nav {background: #ddd;}
+        nav ul {list-style: none; padding: 0;}
+        nav li {display: inline; margin-right: 10px;}
+        footer {background: #222; color: #fff; text-align: center;}
+        img {max-width: 100%; height: auto;}
+        .muted {color: gray; font-size: 0.9em;}  
+     </style>
+</head>
+
+<body>
+    <!-- HEADER: Encabezado de la página -->
+     <header>
+        <h1>ELDA MATUS</h1>
+     </header>
+     <!-- TODO: Agrega una frase corta que te describa -->
+      <p class="muted">Ingeniera en Sistemas de Información</p>
+
+    <!-- NAV: Barra de navegación -->
+     <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+     </nav>
+
+    <!-- SECTION INICIO -->
+     <section id="">
+        <h2>Sobre mí</h2>
+        
+        <!-- TODO: Escribe un párrafo describiéndote -->
+         <p>Escribe quién eres, qué estudias o a qué te dedicas.</p>
+        
+         <!-- TODO: Haz una lista de tus pasatiempos -->
+         <h3>Mis pasatiempos</h3>
+         <ul>
+            <li>Pasatiempo 1</li>
+            <li>Pasatiempo 2</li>
+            <li>Pasatiempo 3</li>
+         </ul>
+
+         <figure>
+            <!-- Cambia la imagen por una tuya o una que te guste -->
+             <img src="https://picsum.photos/400/200" alt="Describe la imagen">
+            <figcaption>Pie de la imagen</figcaption>
+         </figure>
+
+     </section>
+
+    <!-- SECTION GALERÍIA -->
+     <section id="galeria">
+        <h2>Galería</h2>
+
+        <!-- ARTICLE 1 -->
+         <article>
+            <!-- TODO: Agrega un título y párrafo -->
+             <h3>Tema de artículo 1</h3>
+             <p>Escribe un párrafo sobre este tema.</p>
+             <figure>
+                <img src="https://picsum.photos/300/200" alt="Describe la imagen">
+                <figcaption>Pie de la imagen</figcaption>
+             </figure>
+         </article>
+
+         <!-- ARTICLE 2 -->
+         <article>
+            <!-- TODO: Agrega un título y párrafo -->
+             <h3>Tema de artículo 2</h3>
+             <p>Otro párrafo corto.</p>
+             <figure>
+                <img src="https://picsum.photos/300/200" alt="Describe la imagen">
+                <figcaption>Pie de la imagen</figcaption>
+             </figure>
+         </article>
+
+         <!-- TABLA -->
+         <h3>Tabla de intereses</h3>
+         <table>
+            <thead>
+                <tr>
+                    <th>Interés</th>
+                    <th>Nivel (1-5)</th>
+                </tr>
+            </thead>
+            <!-- TODO: Personaliza con tus intereses -->
+            <tbody>
+                <tr>
+                    <td>Programación</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Música</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Minecraft</td>
+                    <td>5</td>
+                </tr>
+         </table>
+
+     </section>
+
+    <!-- SECTION CONTACTO -->
+     <section id="contacto">
+        <h2>Contacto</h2>
+        <!-- FORMULARIO -->
+         <form action="">
+            <!-- Crea campo para nombre -->
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <!-- Crea campo para correo -->
+            <label for="correo">Correo:</label><br>
+            <input type="email" id="correo" name="correo" required><br><br>
+            <!-- Crea campo para mensaje -->
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+            
+         </form>
+     </section>
+
+     <!-- FOOTER -->
+      <footer>
+        <p>&copy; 2025 Elda Matus. Todos los derechos reservados.</p>
+      </footer>
+</body>
+</html>
