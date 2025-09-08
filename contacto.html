@@ -1,17 +1,12 @@
 <!DOCTYPE html>
-<!--
-    PROYECTO: Mi sitio web personal
-    OBJETIVO: Practicar todos los puntos de la Unidad 1
--->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Elda Matus</title>
+    <title>Página Elda Matus - Contacto</title>
     <!-- CSS  -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
     <!-- HEADER: Encabezado de la página -->
      <header>
@@ -28,9 +23,26 @@
             <li><a href="./contacto.html">Contacto</a></li>
         </ul>
      </nav>
-    
-    <!-- ?? -->
-    <!-- ?? -->
+     
+    <!-- SECTION CONTACTO -->
+     <section id="contacto">
+        <h2>Contacto</h2>
+        <!-- FORMULARIO -->
+         <form action="">
+            <!-- Crea campo para nombre -->
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <!-- Crea campo para correo -->
+            <label for="correo">Correo:</label><br>
+            <input type="email" id="correo" name="correo" required><br><br>
+            <!-- Crea campo para mensaje -->
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+            
+         </form>
+     </section>
 
     <!-- FOOTER -->
     <footer>

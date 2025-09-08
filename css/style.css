@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif; /* Indica el tipo de letra */
+  margin: 0; /* Aplica a todo el documento un margen de 0 */
+  padding: 0; /* Quita el espacio interior por defecto del body */
+}
+
+header,
+nav,
+section,
+article,
+footer {
+  padding: 12px; /* Añade un espacio interno entre el contenido y el bloque */
+  margin: 8px; /*Añade espacio externo entre cada uno de esos bloques */
+}
+
+header {
+  background: #f2f2f2; /* Cambia el fondo del header a un gris claro */
+}
+
+nav {
+  background: #ddd; /* Cambia el fondo del nav a un gris */
+}
+
+nav ul {
+  list-style: none; /* Quita la viñetas */
+  padding: 0; /* Elimina el espacio interior extra que tienen las ??*/
+}
+
+nav li { /* Aplica a los li de la lista dentro del nav */
+  display: inline; /* Hace que los elementos se muestren en línea */
+  margin-right: 10px; /* Deja un epsacio de 10px a la derecha de cada enlace */
+}
+
+footer { /* Cambia el estilo del footer */
+  background: #222; /* Fondo gris muy oscuro */
+  color: #fff; /* Texto blanco */
+  text-align: center; /* Centra el texto */
+}
+
+img {
+  max-width: 100%; /* Evita que la imagen se salga de la pantalla, se ajusta al tamaño */
+  height: auto; /* Mantiene la proporción correcta de la imagen al redimensionarse */
+}
+
+.muted { /* Aplica a los elementos con class muted */
+  color: gray; /* Texto gris */
+  font-size: 0.9em; /* Tamaño de la letra */
+}
+
+h1 {
+  color: #2c3e50; /* Azul grisáceo elegante */
+  text-align: center; /* Centra el texto */
+}
+
+section,
+article {
+  background: #fafafa; /* Fondo gris claro */
+  border: 1px solid #ddd; /* Borde gris claro fino */
+  border-radius: 8px; /* Bordes redondeados */
+}
