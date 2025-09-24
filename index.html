@@ -1,55 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Elda Matus - Inicio</title>
-    <!-- CSS  -->
-    <link rel="stylesheet" href="./css/style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Página Elda Matus - Inicio</title>
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   <!-- CSS  -->
+   <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <!-- HEADER: Encabezado de la página -->
-     <header>
-        <h1>ELDA MATUS</h1>
-     </header>
-     <!-- ✅ TODO: Agrega una frase corta que te describa -->
-      <p class="muted">Estudiante de Ingeniería en Sistemas de Información</p>
+   <!-- HEADER: Encabezado de la página -->
+   <header>
+      <h1>ELDA MATUS</h1>
+   </header>
+   <!-- ✅ TODO: Agrega una frase corta que te describa -->
+   <p class="muted">Estudiante de Ingeniería en Sistemas de Información</p>
 
-    <!-- NAV: Barra de navegación -->
-     <nav>
-        <ul>
-            <li><a href="./inicio.html">Inicio</a></li>
-            <li><a href="./galeria.html">Galería</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-     </nav>
+   <!-- NAV: Barra de navegación -->
+   <nav>
+      <ul>
+         <li><a href="./index.html">Inicio</a></li>
+         <li><a href="./galeria.html">Galería</a></li>
+         <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+   </nav>
 
-    <!-- SECTION INICIO -->
-     <section id="">
-        <h2>Sobre mí</h2>
-        
-        <!-- ✅ TODO: Escribe un párrafo describiéndote -->
-         <p>Soy estudiante de noveno semestre de Ingeniería en Sistemas de Información en la Universidad de Sonora, mis principales intereses son el desarrollo web y de aplicaciones móviles.</p>
-        
-         <!-- ✅ TODO: Haz una lista de tus pasatiempos -->
-         <h3>Mis pasatiempos</h3>
-         <ul>
-            <li>Jugar videojuegos</li>
-            <li>Escuchar música</li>
-            <li>Dibujar</li>
-         </ul>
+   <h1 id="autoSaludo">¡Hola!</h1>
 
-         <figure>
-            <!-- ✅ Cambia la imagen por una tuya o una que te guste -->
-             <img src="./img/skin.png" alt="Mi skin de Minecraft pero formal, como para chambear">
-            <figcaption>Lista para dar mis primeros pasos en el mundo laboral</figcaption>
-         </figure>
+   <!-- SECTION INICIO -->
+   <section id="">
+      <h2>Sobre mí</h2>
 
-     </section>
+      <!-- ✅ TODO: Escribe un párrafo describiéndote -->
+      <p>Soy estudiante de noveno semestre de Ingeniería en Sistemas de Información en la Universidad de Sonora, mis
+         principales intereses son el <span class="highlight">desarrollo web</span> y de <span
+            class="highlight">aplicaciones móviles.</span></p>
+         
+      <!-- ✅ TODO: Haz una lista de tus pasatiempos -->
+      <h3>Mis pasatiempos</h3>
+      <ul>
+         <li>Jugar videojuegos</li>
+         <li>Escuchar música</li>
+         <li>Dibujar</li>
+      </ul>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2025 Elda Matus </p>
-    </footer>
+      <figure>
+         <!-- ✅ Cambia la imagen por una tuya o una que te guste -->
+         <img src="https://file.garden/aMJcLqSqrg21TY4d/skin.png"
+            alt="Mi skin de Minecraft pero formal, como para chambear">
+         <figcaption>Lista para dar mis primeros pasos en el mundo laboral</figcaption>
+      </figure>
+
+      <!-- Slideshow container -->
+      <div class="slideshow-container" style="width: 20%;">
+
+         <!-- Full-width images with number and caption text -->
+         <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://res.cloudinary.com/amecar/image/upload/f_auto,w_849/v1591308301/ALAPARRILLA-GuacamoleBaconThickburger-min_xuuosu.jpg" style="width:100%">
+            <div class="text">Rica hamburguesa</div>
+         </div>
+
+         <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://carritolatino.com/cdn/shop/files/34_c200c1a9-0cf6-4acb-a536-0b008e3697cc_560x700.png?v=1755282558" style="width:100%">
+            <div class="text">Ricos Cheetos</div>
+         </div>
+
+         <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://editorialtelevisa.brightspotcdn.com/dims4/default/4dde220/2147483647/strip/true/crop/920x920+460+0/resize/1000x1000!/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fbe%2Fe8%2F048fc5974cff83cb8a4ddfe83d66%2Felote-preparado.jpg" style="width:100%">
+            <div class="text">Rico elote</div>
+         </div>
+      </div>
+      <br>
+
+      <button onclick="descargarPDF()">📄 Descargar PDF</button>
+
+
+   </section>
+
+   <!-- FOOTER -->
+   <footer>
+      <p>&copy; 2025 Elda Matus </p>
+   </footer>
+
+   <!-- JS -->
+   <script src="./script.js"></script>
 </body>
+
 </html>
