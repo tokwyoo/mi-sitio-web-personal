@@ -1,2 +1,0 @@
-- Añadir un texto con .highlight
-- Usar al menos 3 fuentes diferentes

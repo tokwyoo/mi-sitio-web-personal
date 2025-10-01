@@ -15,7 +15,7 @@ function showSlides() {
 
 function descargarPDF() {
     const a = document.createElement('a');
-    a.href = "./sample-local-pdf.pdf";
+    a.href = "./pdf/sample-local-pdf.pdf";
     a.download = 'sample-local-pdf.pdf';
     a.click();
 }
