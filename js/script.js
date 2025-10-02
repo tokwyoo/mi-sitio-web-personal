@@ -9,8 +9,6 @@ const saludos = [
     "Bienvenido",
     "Bienvenida",
     "Gracias por visitar",
-    "Nuestro portafolio",
-    "Nuestra experiencia"
 ];
 
 let index = 0;
